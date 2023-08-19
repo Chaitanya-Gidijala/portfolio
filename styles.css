@@ -1,0 +1,387 @@
+body{
+    background-color: #36454F;
+}
+#home_section{
+    background-image: url("MainBg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 47em;
+}
+
+.nav-item{
+    padding-right: 10px;
+}
+
+.address{
+    color: darkgray;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutme{
+    padding-left: 2emprojec;
+}
+.aboutmediv{
+    background-color: #323f4b;
+   
+}
+
+.abountmedetails{
+    padding-left: 6em;
+    max-width: 65em;
+   
+}
+
+
+
+
+
+
+
+li{ /*style the li tag*/
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.skills{ /*style the text*/
+	max-width: 50%;
+	margin: 60px auto;
+	color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    
+}
+.skillsection{
+    background-image: url(skillsbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 47em;
+}
+
+
+
+.skills li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+.bar{ /*style the bar*/
+	background-color: #3b404a;
+	display: block;
+	height: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #5da2e3b3;
+    
+}
+.bar span{ /*style the span tag*/
+	height: 5px;
+	float: left;
+	background-color: #44bfca;
+}
+
+.html{ /*set skills and animation of html*/
+	width: 90%;
+	animation: html 7s;
+}
+
+.css{ /*set skills and animation of css*/
+	width: 80%;
+	animation: css 7s;
+}
+.javascript{ /*set skills and animation of javascript*/
+	width: 70%;
+	animation: javascript 7s;
+}
+.bootstrap{ /*set skills and animation of bootstrap*/
+	width: 70%;
+	animation: bootstrap 7s;
+}
+.java{ /*set skills and animation of jav*/
+	width: 80%;
+	animation: java 7s;
+}
+.springboot{ /*set skills and animation of springboot*/
+	width: 70%;
+	animation: springboot 7s;
+}
+.thymleaf{ /*set skills and animation of thymleaf*/
+	width: 70%;
+	animation: thymleaf 7s;
+}
+.mysql{ /*set skills and animation of mysql*/
+	width: 75%;
+	animation: mysql 7s;
+}
+.hibernate{ /*set skills and animation of hibernate*/
+	width: 60%;
+	animation: hibernate 7s;
+}
+.jdbc{ /*set skills and animation of jdbc*/
+	width: 85%;
+	animation: jdbc 7s;
+}
+.jsp{ /*set skills and animation of jsp*/
+	width: 80%;
+	animation: jsp 7s;
+}
+.servlets{ /*set skills and animation of servlets*/
+	width: 60%;
+	animation: servlets 7s;
+}
+
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 90%;
+	}
+}
+
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes javascript{ /*animate javascript skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+@keyframes bootstrap{ /*animate bootstrap skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 70%;
+	}
+}
+@keyframes java{ /*animate java skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+@keyframes thymleaf{ /*animate thymleaf skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 75%;
+	}
+}
+@keyframes hibernate{ /*animate hibernate skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+@keyframes mysql{ /*animate mysql skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 75%;
+	}
+}@keyframes jdbc{ /*animate jdbc skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 85%;
+	}
+}@keyframes jsp{ /*animate jsp skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+@keyframes servlets{ /*animate servlets skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#projectHeading{
+   max-height: 100%;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    background-color: #36454F;
+}
+
+.project1{
+    background-color: #455A64;
+    padding: 5em;
+    border-radius: 5px;
+}
+.project2{
+    background-color: #363945;
+    padding: 5em;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 978px) {
+    .skillcards, .project1, .project2{
+    padding: 1em;
+    
+    margin-bottom: 1em;
+}
+
+}
+@media screen and (max-width: 768px) {
+    .aboutme, .abountmedetails{
+        padding: 0em;      
+    }
+}
+
+
+.project{
+    color: #E0B589;
+
+}
+.project_link a {
+    color: #b3f1ece4;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1f282f;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+.project_link a:hover{
+    color: #cd9316;
+    background-color: #173a3d;
+    
+} 
+
+.headingsp1{
+    color: #FFD662;
+}
+.contact12{
+    background-color: #163938;
+}
+#contact{
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+.contact_details{
+    padding-bottom: 5em;
+    padding-bottom: 1em;
+}
+.contacthome a{
+    color: #C27BA0;
+}
+.contacthome a:hover{
+    color: #e69138;
+    text-decoration: none;
+}
+.address{
+    padding-top: 8px;
+}
+  .fa-linkedin {
+    color: white;
+    border-radius: 60px;
+    border: solid 1px;
+    padding: 8px;
+  }
+ .fa-github {
+    color: white;
+    border-radius: 60px;
+    border: solid 1px;
+    padding: 8px;
+
+  }
+
+
+
+
+
+
+
+
+  
+  .container h1 {
+    animation-duration: 3s;
+    animation-duration: 3s;
+    animation-name: slidein;
+ }
+ .container .contacthome {
+    -moz-animation-duration: 3s;
+    animation-duration: 3s;
+    animation-name: contact;
+ }
+
+ @keyframes slidein {
+    from {
+       margin-left:100%;
+       width:300%
+    }
+    to {
+       margin-left:0%;
+       width:100%;
+    }
+ }
+   .waviy {
+     position: relative;
+   }
+   .waviy span {
+     position: relative;
+     display: inline-block;
+     text-decoration: none;
+     font-size: 30px;
+     color: rgb(127, 236, 199);
+     animation: flip 2s infinite;
+     animation-delay: calc(.2s * var(--i))
+   }
+   @keyframes flip {
+     0%, 80% {
+       transform: rotateY(360deg) 
+     }
+   }
